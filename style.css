@@ -1,0 +1,231 @@
+	/*------------ HEADER SECTION ------------------*/
+
+.fstyle{
+	font-family: 'Wallpoet', cursive;
+	margin: 0px;
+	font-size: 30px;
+}
+#titleC{
+	color: #ff33cc;
+}
+#titleA{
+	color: #3399ff;
+}
+#titleN{
+	color: #99ff33;
+}
+#titleD{
+	color: orange;
+}
+#titleY{
+	color: #00cc00;
+}
+#titleS{
+	color:  #ff99ff;
+}
+#titleH{
+	color: #b3b3cc;
+}
+#titleO{
+	color: #ff6600;
+}
+#titleP{
+	color: #996633;
+}
+
+nav audio{
+	margin-right: 5px;
+}
+nav ul {
+	margin-left: 150px;
+}
+nav li {
+	margin: 5px;
+}
+
+          /* CARROUSEL */
+.my-carousel-img{
+	height: 600px;
+	/*background-attachment: fixed;
+	opacity:0.6;
+  	filter:alpha(opacity=50);*/
+	size: cover;
+	position: center;
+}
+.carousel-caption{
+	font-size: 30px;
+	position: center;
+  	bottom: 10%;
+  	left: 5%;
+  	z-index: 20;
+  	color: black;
+  	text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+}
+
+	/*------------ MAIN SECTION ------------------*/
+				/*-------GALLERY --------*/
+.container-fluid{
+	max-width: 100%;
+}
+#titleprod {
+	font-family: 'Pacifico', cursive;
+	background-color: snow;
+	text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.galcontainer{
+	background-color: snow;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 40px;
+	padding: 60px 80px 120px 80px;
+}
+.galitem{
+ 	background-color: white;	
+}
+.galitem img{
+	padding-left: 170px;
+	width: 300px;
+	height: 150px;
+
+}
+.galitem label, p{
+	font-weight: bold;
+	padding: 4px 0px 0px 10px;
+}
+.galitem p{
+	display: flex;
+	justify-content: space-between;
+}
+.galitem button{
+	font-weight: bold;
+	padding: 0px 6px 0px 6px;
+	margin-right: 10px;
+	font-size: 25px;
+	border-radius: 5px;
+	background-color: seashell;
+	color: red;
+}
+
+.togglebutton {
+  background-color: white;
+  margin: em(8px) em(38px);
+  font-size: em(11px);
+  /*text-transform: uppercase;*/
+  border-radius: .3em;
+  padding: em(15px) em(30px);
+
+  color: black;
+  border: solid 2px;
+  border-color: rgba(0, 0, 0, .2);
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: 0 5px 4px -4px black;
+  outline: none;
+  font-family: Arial;
+  opacity: 0.5;
+}
+.togglebutton:hover{
+	opacity: 1.0;
+	color: lightblue;
+	font-weight: bold;
+}
+      /* SHOPPING LIST */
+.section1{
+	background-image: url(https://images.unsplash.com/photo-1473257982302-a900d079172e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+	background-attachment: fixed;
+	opacity:0.9;
+  	filter:alpha(opacity=50);
+	background-size: cover;
+	background-position: center;
+	height: 452px;
+	overflow: auto;
+}
+.done {
+	text-decoration: line-through;
+	font-weight: normal;
+}
+.list{
+	border: 3px solid azure;
+	background-color: mintcream;
+	opacity:0.9;
+  	filter:alpha(opacity=50);
+}
+/*.my-form-container{
+	max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}*/
+
+.myformPopup{
+	background-color: white;
+  display: none;
+  position:relative;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  opacity: 1;
+  	max-width: 500px;
+  margin-left:40px;
+}
+.open-button {
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  /*position: fixed;*/
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+        /* PRE FOOTER COMMENT SECTION */
+
+.section2{
+    background-image: url(https://images.unsplash.com/photo-1504437484202-613bb51ce359?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
+    background-attachment: fixed;
+    /*opacity:0.6;
+     filter:alpha(opacity=50);*/
+    background-size: cover;
+    background-position: center;
+    /*/height: 400px;/*/
+    min-height: 100%;
+    overflow: auto;
+}
+.commment-section{
+    margin-top: 10px;
+    border:2px solid gold;
+    background-color: lightyellow;
+    opacity:0.8;
+     filter:alpha(opacity=60);
+     min-height: 400px;
+     max-height: 800px;
+     overflow: auto;
+}
+.lij{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+}
+
+          /*FOOTER*/
+.my-footer{
+	background-color:#400080;
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+
+}
+.logo{
+	float: right;
+}
+ul {
+	/*list-style: square inside url(https://zupimages.net/up/19/46/hc14.png);*/
+	list-style: none;
+}
